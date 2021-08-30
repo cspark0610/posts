@@ -22,7 +22,7 @@ app.use('/user',userRoutes);
 
 
 
-const CONNECTION_URL = 'mongodb+srv://carlos:plataforma5@cluster0.3azg9.mongodb.net/posts?retryWrites=true&w=majority'
+const CONNECTION_URL = ['db connection']
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {
